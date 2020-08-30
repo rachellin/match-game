@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>matching game</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Source+Sans+Pro:400,400i,600,600i&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<!-- game over popup -->
+<div class="overlay">
+<div class="gameover">
+<h1>score: <span></span></h1>
+<i></i>
+<div class="close">play again</div>
+</div>
+</div>
+<!-- game over pop up end -->
+
+<!-- left container start -->
+<div id="left">
+
+<!-- instructions -->
+<div class="instructions">
+  <h2><i class="fas fa-question-circle"></i>instructions</h2>
+  <p>
+  Click on an image to reveal it. You can reveal 2 images at a time. The objective of the game is to match all the images. The 2 images will only stay revealed if they match. Remember where the images are so that you can efficiently make matches! The score will increase by 1 every time you reveal an image. Aim for the lowest score possible!
+  </p>
+</div>
+
+</div>
+<!-- left container end -->
+
+
+<!-- center container start -->
+<div id="center">
+
+<!-- title -->
+<h1>matching game</h1>
+
+<!-- board start-->
+<div id="board">
+
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+<img src="https://bit.ly/2lKrb6N" data-img=""/>
+
+</div>
+<!-- board end-->
+
+</div>
+<!-- center container end -->
+
+
+<!-- right container start -->
+<div id="right">
+
+<!-- score -->
+<div class="score"><i class="fas fa-star"></i> score: <span>0</span></div>
+
+<!-- rest btn -->
+<div class="reset"><i class="fas fa-redo"></i> reset</div>
+
+</div>
+<!-- right container end -->
+
+
+  <script src="script.js"></script>
+  </body>
+</html>
+
